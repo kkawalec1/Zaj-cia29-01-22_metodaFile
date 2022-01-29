@@ -18,5 +18,12 @@ public class Odczyt {
 
         String zdanie = in.nextLine();
         System.out.println(zdanie);
+        
+ //------------------------ Czyta wszystkie linijki w pliku -----------------------------------------       
+//         File file = new File("plikTest.txt"); //odczytuje zawartość pliku
+//         Scanner in = new Scanner(file);
+//         while (in.hasNext()){
+//         String zdanie = in.nextLine();
+//         System.out.println(zdanie);}
     }
 }
